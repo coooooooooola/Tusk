@@ -9,11 +9,11 @@
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
-        <!-- dispatch testng调度部分所需jar包 -->
+        <!--testng调度部分所需jar包 -->
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>6.8.8</version>
+            <version>6.14.3</version>
             <type>jar</type>
             <scope>compile</scope>
         </dependency>

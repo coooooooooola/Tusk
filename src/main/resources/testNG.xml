@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--@beforeSuit will be executed here-->
+<suite name="Practice Suite">
+    <!-- all of  @beforeTest defined in current  work here and they will be executed by order-->
+    <test name="Test Basics">
+        <parameter name="emailid" value="tester456@gmail.com"/>
+        <parameter name="password" value="test@123"/>
+        <classes>
+            <!-- @beforeClass defined in TestNGDemo works here-->
+            <class name="TestNGDemo"/>
+            <!-- @afterClass defined in TestNGDemo works here-->
+            <!-- @beforeClass defined in TestNGDemo1 works here-->
+            <class name="TestNGDemo1"/>
+            <!-- @afterClass defined in TestNGDemo works here-->
+        </classes>
+    </test> <!-- Test -->
+    <!-- @afterTest work here-->
+</suite> <!-- Suite -->
+<!--@afterSuit will be executed here-->
