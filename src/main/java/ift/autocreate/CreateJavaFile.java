@@ -1,8 +1,9 @@
 package ift.autocreate;
 
-import com.meituan.ep.leo.ift.IftConf;
-import com.meituan.ep.leo.toolkit.util.FreeMakerUtil;
-import com.meituan.ep.leo.toolkit.util.LogUtil;
+
+import ift.IftConf;
+import toolkit.utils.FreeMakerUtil;
+import toolkit.utils.LogUtil;
 
 import java.util.Map;
 import java.util.TreeMap;
